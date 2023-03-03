@@ -1,5 +1,8 @@
 ﻿using HttpClientSample;
 using System.Net.Http.Headers;
+using System.Text;
+
+Console.OutputEncoding = Encoding.UTF8;
 
 HttpClient client = new();
 
